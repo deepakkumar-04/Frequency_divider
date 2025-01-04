@@ -1,5 +1,5 @@
 
-module freq_divider #(parameter N = 5) (
+module frequency_divider #(parameter N = 5) (
     input wire clk,          
     input wire rst,          
     output reg out);
