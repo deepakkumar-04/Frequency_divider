@@ -3,7 +3,7 @@ module frequency_divider_tb;
     reg clk;                   
     reg rst;                   
     wire out;                  
-    freq_divider_by_odd #(5) uut (
+    frequency_divider #(5) uut (
         .clk(clk),
         .rst(rst),
         .out(out)
